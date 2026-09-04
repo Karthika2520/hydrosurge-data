@@ -1,0 +1,16 @@
+{
+  "source": "mock-gpm-imerg",
+  "variable": "rainfall",
+  "valid_time": "2024-09-01T06:00:00Z",
+  "crs": "EPSG:4326",
+  "resolution_m": 1000,
+  "bbox": [
+    80.0,
+    12.8,
+    80.5,
+    13.3
+  ],
+  "nodata": -9999,
+  "quality_score": 0.9,
+  "file_uri": "file://mock/data/raw/rainfall_mock.tif"
+}

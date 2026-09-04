@@ -1,0 +1,11 @@
+{
+  "source": "mock-imd-station",
+  "variable": "rainfall",
+  "value": 12.5,
+  "unit": "mm",
+  "latitude": 13.0827,
+  "longitude": 80.2707,
+  "observed_at": "2024-09-01T06:00:00Z",
+  "received_at": "2024-09-01T06:05:00Z",
+  "quality_score": 0.95
+}

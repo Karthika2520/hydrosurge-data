@@ -1,0 +1,7 @@
+{
+  "tile_id": "mock-tile-13N-80E-0001",
+  "timestamp": "2024-09-01T06:00:00Z",
+  "flood_probability": 0.67,
+  "depth_band": "0.3-0.5m",
+  "confidence": 0.78
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rainfall_output.schema.json",
+  "title": "RainfallOutput",
+  "description": "A rainfall prediction tile.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "tile_id",
+    "timestamp",
+    "rainfall_mm_hr",
+    "confidence"
+  ],
+  "properties": {
+    "tile_id": {
+      "type": "string",
+      "description": "Identifier of the prediction tile."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Valid time of the rainfall prediction."
+    },
+    "rainfall_mm_hr": {
+      "type": "number",
+      "description": "Predicted rainfall intensity in millimetres per hour."
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Prediction confidence in the range 0 to 1."
+    }
+  }
+}

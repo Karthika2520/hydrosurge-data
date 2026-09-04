@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "observation.schema.json",
+  "title": "Observation",
+  "description": "A point hydrometeorological observation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source",
+    "variable",
+    "value",
+    "unit",
+    "latitude",
+    "longitude",
+    "observed_at",
+    "received_at",
+    "quality_score"
+  ],
+  "properties": {
+    "source": {
+      "type": "string",
+      "description": "Origin of the observation."
+    },
+    "variable": {
+      "type": "string",
+      "description": "Name of the observed variable."
+    },
+    "value": {
+      "type": "number",
+      "description": "Observed numeric value."
+    },
+    "unit": {
+      "type": "string",
+      "description": "Unit of the observed value."
+    },
+    "latitude": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Latitude in decimal degrees."
+    },
+    "longitude": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180,
+      "description": "Longitude in decimal degrees."
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time the observation was taken."
+    },
+    "received_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time the observation was received."
+    },
+    "quality_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Quality score in the range 0 to 1."
+    }
+  }
+}

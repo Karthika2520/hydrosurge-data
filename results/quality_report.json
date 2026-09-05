@@ -1,0 +1,10 @@
+{
+  "completeness": 1.0,
+  "range_validity": 1.0,
+  "duplicate_rate": 0.0,
+  "source_latency": {
+    "average_seconds": 240.0
+  },
+  "source_quality_score": 1.0,
+  "fallback_state": "primary"
+}

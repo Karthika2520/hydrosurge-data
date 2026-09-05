@@ -1,0 +1,26 @@
+[
+  {
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "value": 12.5,
+    "unit": "mm",
+    "observed_at": "2024-09-01T06:00:00Z",
+    "received_at": "2024-09-01T06:05:00Z"
+  },
+  {
+    "latitude": 13.0851,
+    "longitude": 80.2784,
+    "value": 8.2,
+    "unit": "mm",
+    "observed_at": "2024-09-01T07:00:00Z",
+    "received_at": "2024-09-01T07:04:00Z"
+  },
+  {
+    "latitude": 13.0902,
+    "longitude": 80.2651,
+    "value": 21.7,
+    "unit": "mm",
+    "observed_at": "2024-09-01T08:00:00Z",
+    "received_at": "2024-09-01T08:03:00Z"
+  }
+]

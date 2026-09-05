@@ -14,6 +14,25 @@
         "received_at"
       ],
       "notes": "Deterministic mock observation source used for development and contract validation."
+    },
+    {
+      "source": "NASA GPM IMERG Final V07B",
+      "type": "raster",
+      "format": "HDF5",
+      "variable": "precipitation",
+      "status": "real",
+      "uri": "data/raw/imerg/3B-HHR.MS.MRG.3IMERG.20250901-S110000-E112959.0660.V07B.HDF5",
+      "native_resolution": "0.1 degree x 0.1 degree",
+      "native_crs": "EPSG:4326",
+      "timestamp_fields": [
+        "observed_at"
+      ],
+      "processed_outputs": [
+        "data/processed/imerg_chennai_20250901T110000Z.tif",
+        "data/processed/imerg_chennai_20250901T110000Z_utm44.tif"
+      ],
+      "notes": "Real NASA GPM IMERG Final V07B half-hourly precipitation source. Source file is kept locally and excluded from Git because it is a downloaded external dataset."
     }
   ]
 }
+

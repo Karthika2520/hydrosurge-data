@@ -7,3 +7,5 @@ __pycache__/
 
 # Pytest cache
 .pytest_cache/
+
+data/raw/imerg/

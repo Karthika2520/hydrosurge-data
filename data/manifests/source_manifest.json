@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "sources": [
+    {
+      "source": "mock-csv",
+      "type": "observation",
+      "format": "CSV",
+      "variable": "rainfall",
+      "status": "proxy",
+      "uri": "data/raw/mock_observations.csv",
+      "native_resolution": "point observations",
+      "timestamp_fields": [
+        "observed_at",
+        "received_at"
+      ],
+      "notes": "Deterministic mock observation source used for development and contract validation."
+    }
+  ]
+}
